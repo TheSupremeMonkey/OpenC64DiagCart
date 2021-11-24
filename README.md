@@ -9,7 +9,9 @@ Most Commodore 64 diagnostic cartriges are a standard 8k image, the exception be
  I also added an RGB LED to give a visual queue as to which image is selected. THe RGB is also tied to the dip switch so that meant that when all three addresses are low the LED will be off. I added a 2nd LED that is triggered when Utilimax mode is on, this way the dead test always gets a special light. 
  
 ### Configuration
- |Slot	|Image								|RGB	|LED	|A13 (B)	|A14 (G)	|A15 (R)	|MODE|
+
+|Slot	|Image								|RGB	|LED	|A13 (B)	|A14 (G)	|A15 (R)	|MODE|
+|-------|-----------------------------------|-------|-------|-----------|-----------|-----------|----|
 |0		|Dead Test Rev 781220				|OFF	|ON		|0			|0			|0			|Dead Test|
 |1		|C-64 Diagnostic Rev 586220*		|Blue	|OFF	|1			|0			|0			|Normal|
 |2		|Roßmöller Doctor64					|Green	|OFF	|0			|1			|0			|Normal|
