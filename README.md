@@ -9,7 +9,16 @@ Most Commodore 64 diagnostic cartriges are a standard 8k image, the exception be
  I also added an RGB LED to give a visual queue as to which image is selected. THe RGB is also tied to the dip switch so that meant that when all three addresses are low the LED will be off. I added a 2nd LED that is triggered when Utilimax mode is on, this way the dead test always gets a special light. 
  
 ### Configuration
- Comming soon...
+ |Slot	|Image								|RGB	|LED	|A13 (B)	|A14 (G)	|A15 (R)	|MODE|
+|0		|Dead Test Rev 781220				|OFF	|ON		|0			|0			|0			|Dead Test|
+|1		|C-64 Diagnostic Rev 586220*		|Blue	|OFF	|1			|0			|0			|Normal|
+|2		|Roßmöller Doctor64					|Green	|OFF	|0			|1			|0			|Normal|
+|3		|Trilogic 64 Doctor					|Cyan	|OFF	|1			|1			|0			|Normal|
+|4		|C64 Burn In “Final Rev 3.0”		|Red	|OFF	|0			|0			|1			|Normal|
+|5		|1541 Diagnostic					|Purple	|OFF	|1			|0			|1			|Normal|
+|6		|PSID64 Sid Player					|Yellow	|OFF	|0			|1			|1			|Normal|
+|7		|C-64 Diagnostic Rev 586220-SWINSID	|White	|OFF	|1			|1			|1			|Normal|
+
  
 ### Thanks
 While this is technically a fork of [OpenC64Cart](https://github.com/SukkoPera/OpenC64Cart), it was also very helpful to look at the design of Bwack's [Vers64Cart](https://github.com/bwack/Versa64Cart). A ton of credit also needs to go to the [World Of Jani](http://blog.worldofjani.com/) blog for both the [diagnostic images](http://blog.worldofjani.com/?p=164) and [code](http://blog.worldofjani.com/?p=1981), as well a ton of [documentation](http://blog.worldofjani.com/?p=879) on how these cartridges work. 
