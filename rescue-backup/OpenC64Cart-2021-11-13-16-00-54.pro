@@ -1,4 +1,4 @@
-update=11/13/2021 4:01:16 PM
+update=gio 04 gen 2018 01:41:58 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,36 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[eeschema]
+version=1
+LibDir=lib
+[eeschema/libraries]
+LibName1=power
+LibName2=device
+LibName3=transistors
+LibName4=conn
+LibName5=linear
+LibName6=74xx
+LibName7=cmos4000
+LibName8=adc-dac
+LibName9=memory
+LibName10=microchip
+LibName11=analog_switches
+LibName12=motorola
+LibName13=texas
+LibName14=intel
+LibName15=audio
+LibName16=interface
+LibName17=digital-audio
+LibName18=philips
+LibName19=display
+LibName20=cypress
+LibName21=siliconi
+LibName22=opto
+LibName23=atmel
+LibName24=contrib
+LibName25=switches
+LibName26=lib/C64-Exp-Port
 [general]
 version=1
 [schematic_editor]
@@ -35,6 +65,3 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[eeschema]
-version=1
-LibDir=

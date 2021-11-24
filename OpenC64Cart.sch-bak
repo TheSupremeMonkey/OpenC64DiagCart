@@ -632,9 +632,9 @@ F 3 "~" H 6517 6331 50  0001 C CNN
 $EndComp
 Text Label 6678 6650 0    60   ~ 0
 A14
-Text Label 6686 6942 0    60   ~ 0
-A13
 Text Label 6667 6331 0    60   ~ 0
+A13
+Text Label 6686 6942 0    60   ~ 0
 A15
 Text Label 1336 4937 2    60   ~ 0
 A14
@@ -762,16 +762,16 @@ Wire Wire Line
 	1327 6251 1327 6451
 Text Label 1709 2386 0    60   ~ 0
 A14
-Text Label 1709 2186 0    60   ~ 0
-A13
 Text Label 1709 2586 0    60   ~ 0
+A13
+Text Label 1709 2186 0    60   ~ 0
 A15
 $Comp
 L Device:R R3
 U 1 1 619A84A5
 P 1559 2586
 F 0 "R3" V 1477 2589 50  0000 C CNN
-F 1 "200" V 1560 2588 50  0000 C CNN
+F 1 "150" V 1560 2588 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1489 2586 50  0001 C CNN
 F 3 "~" H 1559 2586 50  0001 C CNN
 	1    1559 2586
@@ -782,7 +782,7 @@ L Device:R R1
 U 1 1 619AAF13
 P 1559 2186
 F 0 "R1" V 1481 2191 50  0000 C CNN
-F 1 "150" V 1559 2187 50  0000 C CNN
+F 1 "200" V 1559 2187 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1489 2186 50  0001 C CNN
 F 3 "~" H 1559 2186 50  0001 C CNN
 	1    1559 2186
