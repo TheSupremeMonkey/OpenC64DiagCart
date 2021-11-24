@@ -1,7 +1,7 @@
 # OpenC64Cart
 OpenC64Cart is an Open Hardware Cartridge for the Commodore 64. It only supports 8 KB ROM images. A variant that supports 16 KB ROMs is [available separately](https://github.com/SukkoPera/OpenC64Cart16K).
  
-![Board](https://raw.githubusercontent.com/SukkoPera/OpenC64Cart/master/doc/render-top.png)
+![Board](https://raw.githubusercontent.com/TheSupremeMonkey/OpenC64DiagCart/master/doc/render-top.png)
  
 ### Summary
 OpenC64Cart is designed to accept a 64 KB (512 Kilobit) (E)EPROM with a 27512-style pinout:
