@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C64-Exp-Port:C64-Exp-Port U1
-U 1 1 59713F4B
-P 4381 3340
-F 0 "U1" H 4381 3240 50  0000 C CNN
-F 1 "C64-Exp-Port" H 4381 4640 50  0000 C CNN
-F 2 "OpenC64Cart:C64-Cart" H 4381 3340 50  0001 C CNN
-F 3 "https://www.c64-wiki.com/wiki/Expansion_Port" H 4381 3340 50  0001 C CNN
-	1    4381 3340
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C C1
 U 1 1 597140F9
 P 9628 1072
@@ -389,15 +378,6 @@ Wire Wire Line
 	8531 4040 8381 4040
 Wire Wire Line
 	8381 4040 8381 4140
-Wire Wire Line
-	8381 4140 8531 4140
-Connection ~ 8381 4140
-Wire Wire Line
-	3631 4290 3331 4290
-Wire Wire Line
-	5131 3390 6131 3390
-Wire Wire Line
-	6131 3390 6131 5287
 NoConn ~ 5131 3190
 NoConn ~ 5131 3290
 NoConn ~ 5131 3490
@@ -483,8 +463,6 @@ NoConn ~ 3631 3690
 Wire Wire Line
 	5331 1940 5631 1940
 Wire Wire Line
-	8381 4140 8381 5740
-Wire Wire Line
 	2981 4190 3631 4190
 Wire Wire Line
 	4381 4740 5331 4740
@@ -542,28 +520,6 @@ F 2 "Package_DIP:DIP-14_W7.62mm" H 1636 4837 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1636 4837 50  0001 C CNN
 	1    1636 4837
 	1    0    0    -1  
-$EndComp
-$Comp
-L 4xxx:4066 U102
-U 1 1 6195B65C
-P 2554 5753
-F 0 "U102" H 2554 5580 50  0000 C CNN
-F 1 "4066" H 2554 5489 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2554 5753 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 2554 5753 50  0001 C CNN
-	1    2554 5753
-	0    -1   1    0   
-$EndComp
-$Comp
-L 4xxx:4066 U102
-U 2 1 6195CC77
-P 2554 6352
-F 0 "U102" H 2554 6179 50  0000 C CNN
-F 1 "4066" H 2554 6088 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2554 6352 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 2554 6352 50  0001 C CNN
-	2    2554 6352
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR0101
@@ -643,8 +599,6 @@ A13
 Text Label 1328 5273 2    60   ~ 0
 A15
 Wire Wire Line
-	1937 4837 2149 4837
-Wire Wire Line
 	2149 4837 2149 6688
 Wire Wire Line
 	2149 6688 1078 6688
@@ -667,50 +621,16 @@ Wire Wire Line
 	1327 6162 2083 6162
 Wire Wire Line
 	2083 6162 2083 5753
-Wire Wire Line
-	1929 6351 2254 6351
-Wire Wire Line
-	2254 6351 2254 6352
-Wire Wire Line
-	2083 5753 2254 5753
 Connection ~ 2083 5753
 Wire Wire Line
 	2083 5753 2083 5373
 Wire Wire Line
-	2554 6053 4008 6053
-Wire Wire Line
-	4008 6053 4008 5740
-Wire Wire Line
-	4008 5740 8381 5740
-Wire Wire Line
 	1928 5373 2083 5373
 Connection ~ 2083 5373
-Wire Wire Line
-	2083 5373 2253 5373
-Wire Wire Line
-	5924 5494 3050 5494
-Wire Wire Line
-	3050 5494 3050 6869
 Wire Wire Line
 	3050 6869 2255 6869
 Wire Wire Line
 	1929 6351 1928 6351
-Wire Wire Line
-	1929 6351 1929 6869
-Connection ~ 1929 6351
-Wire Wire Line
-	5129 3590 5131 3590
-$Comp
-L 4xxx:4066 U102
-U 5 1 61C253FE
-P 4319 6953
-F 0 "U102" V 3952 6953 50  0000 C CNN
-F 1 "4066" V 4043 6953 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4319 6953 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4319 6953 50  0001 C CNN
-	5    4319 6953
-	0    1    1    0   
-$EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 61C27FBE
@@ -832,23 +752,6 @@ F 3 "" H 6367 6331 50  0001 C CNN
 	1    6367 6331
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5924 3590 5131 3590
-Wire Wire Line
-	5924 3590 5924 5494
-Connection ~ 5131 3590
-Wire Wire Line
-	5131 3690 6011 3690
-Wire Wire Line
-	6011 3690 6011 5373
-Wire Wire Line
-	2554 5453 2554 5287
-Wire Wire Line
-	2554 5287 6131 5287
-Wire Wire Line
-	3331 4290 3331 6652
-Wire Wire Line
-	3331 6652 2554 6652
 $Comp
 L 4xxx:4066 U102
 U 3 1 61AF60DC
@@ -878,9 +781,6 @@ Wire Wire Line
 	2255 6869 1929 6869
 Wire Wire Line
 	2253 4915 2253 5373
-Connection ~ 2253 5373
-Wire Wire Line
-	2253 5373 6011 5373
 $Comp
 L Device:LED D2
 U 1 1 61B8752E
@@ -973,4 +873,99 @@ F 3 "" H 9461 5642 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 NoConn ~ 9461 6042
+Wire Wire Line
+	2083 5753 2254 5753
+$Comp
+L 4xxx:4066 U102
+U 1 1 6195B65C
+P 2554 5753
+F 0 "U102" H 2554 5580 50  0000 C CNN
+F 1 "4066" H 2554 5489 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2554 5753 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 2554 5753 50  0001 C CNN
+	1    2554 5753
+	0    -1   1    0   
+$EndComp
+$Comp
+L 4xxx:4066 U102
+U 5 1 61C253FE
+P 4319 6953
+F 0 "U102" V 3952 6953 50  0000 C CNN
+F 1 "4066" V 4043 6953 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4319 6953 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4319 6953 50  0001 C CNN
+	5    4319 6953
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2554 6072 2554 6065
+$Comp
+L 4xxx:4066 U102
+U 2 1 6195CC77
+P 2554 6372
+F 0 "U102" H 2554 6199 50  0000 C CNN
+F 1 "4066" H 2554 6108 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2554 6372 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 2554 6372 50  0001 C CNN
+	2    2554 6372
+	0    -1   -1   0   
+$EndComp
+Text Label 3631 4290 2    60   ~ 0
+ROMH
+Text Label 5131 3390 0    60   ~ 0
+ROML
+Text Label 5131 3590 0    60   ~ 0
+EXROM
+$Comp
+L C64-Exp-Port:C64-Exp-Port U1
+U 1 1 59713F4B
+P 4381 3340
+F 0 "U1" H 4381 3240 50  0000 C CNN
+F 1 "C64-Exp-Port" H 4381 4640 50  0000 C CNN
+F 2 "OpenC64Cart:C64-Cart" H 4381 3340 50  0001 C CNN
+F 3 "https://www.c64-wiki.com/wiki/Expansion_Port" H 4381 3340 50  0001 C CNN
+	1    4381 3340
+	-1   0    0    1   
+$EndComp
+Text Label 5131 3690 0    60   ~ 0
+GAME
+Wire Wire Line
+	2083 5373 2253 5373
+Connection ~ 2253 5373
+Wire Wire Line
+	2253 5373 3058 5373
+Wire Wire Line
+	1929 4837 1936 4837
+Connection ~ 1936 4837
+Wire Wire Line
+	1936 4837 2149 4837
+Text Label 2554 6672 0    60   ~ 0
+ROML
+Text Label 2554 5453 0    60   ~ 0
+ROMH
+Text Label 3050 6869 0    60   ~ 0
+GAME
+Text Label 3058 5373 0    60   ~ 0
+EXROM
+Wire Wire Line
+	1929 6351 1929 6869
+Wire Wire Line
+	1928 6372 1928 6351
+Wire Wire Line
+	1928 6372 2254 6372
+Connection ~ 1928 6351
+Wire Wire Line
+	2554 6065 2605 6065
+Connection ~ 2554 6065
+Wire Wire Line
+	2554 6065 2554 6053
+Text Label 2605 6065 0    60   ~ 0
+CE
+Text Label 8297 4140 2    60   ~ 0
+CE
+Wire Wire Line
+	8297 4140 8381 4140
+Connection ~ 8381 4140
+Wire Wire Line
+	8381 4140 8531 4140
 $EndSCHEMATC
