@@ -1,3 +1,5 @@
+# UNTESTED PLEASE DON'T USE THE GERBERS YET!
+
 # OpenC64DiagCart
 OpenC64DiagCart started as a fork of OpenC64Cart by SukkoPera [available at](https://github.com/SukkoPera/OpenC64Cart). The primary goal being to replace all the jumpers with a single rotary DIP switch while also retaining the ability to have one of the 8 image slots be used as a C64 Dead Test. 
  
