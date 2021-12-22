@@ -378,9 +378,6 @@ Wire Wire Line
 	8531 4040 8381 4040
 Wire Wire Line
 	8381 4040 8381 4140
-Wire Wire Line
-	8381 4140 8531 4140
-Connection ~ 8381 4140
 NoConn ~ 5131 3190
 NoConn ~ 5131 3290
 NoConn ~ 5131 3490
@@ -466,42 +463,40 @@ NoConn ~ 3631 3690
 Wire Wire Line
 	5331 1940 5631 1940
 Wire Wire Line
-	8381 4140 8381 5740
-Wire Wire Line
 	2981 4190 3631 4190
 Wire Wire Line
 	4381 4740 5331 4740
 $Comp
 L 74xx:74LS02 U101
 U 5 1 61921332
-P 4285 6422
-F 0 "U101" H 4515 6468 50  0000 L CNN
-F 1 "74LS02" H 4515 6377 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4285 6422 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 4285 6422 50  0001 C CNN
-	5    4285 6422
+P 4723 6465
+F 0 "U101" H 4953 6511 50  0000 L CNN
+F 1 "74LS02" H 4953 6420 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4723 6465 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 4723 6465 50  0001 C CNN
+	5    4723 6465
 	0    -1   -1   0   
 $EndComp
 $Comp
 L 74xx:74LS02 U101
 U 4 1 6191F59C
-P 1628 6351
-F 0 "U101" H 1628 6676 50  0000 C CNN
-F 1 "74LS02" H 1628 6585 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1628 6351 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1628 6351 50  0001 C CNN
-	4    1628 6351
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx:74LS02 U101
-U 3 1 6191CC05
 P 1624 5819
 F 0 "U101" H 1624 6144 50  0000 C CNN
 F 1 "74LS02" H 1624 6053 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 1624 5819 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1624 5819 50  0001 C CNN
-	3    1624 5819
+	4    1624 5819
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS02 U101
+U 3 1 6191CC05
+P 1628 6351
+F 0 "U101" H 1628 6676 50  0000 C CNN
+F 1 "74LS02" H 1628 6585 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1628 6351 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls02" H 1628 6351 50  0001 C CNN
+	3    1628 6351
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -529,23 +524,23 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 6191FDAD
-P 4785 6422
-F 0 "#PWR0101" H 4785 6172 50  0001 C CNN
-F 1 "GND" H 4790 6249 50  0000 C CNN
-F 2 "" H 4785 6422 50  0001 C CNN
-F 3 "" H 4785 6422 50  0001 C CNN
-	1    4785 6422
+P 5223 6465
+F 0 "#PWR0101" H 5223 6215 50  0001 C CNN
+F 1 "GND" H 5228 6292 50  0000 C CNN
+F 2 "" H 5223 6465 50  0001 C CNN
+F 3 "" H 5223 6465 50  0001 C CNN
+	1    5223 6465
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR0102
 U 1 1 61920AEE
-P 3785 6422
-F 0 "#PWR0102" H 3785 6272 50  0001 C CNN
-F 1 "+5V" H 3800 6595 50  0000 C CNN
-F 2 "" H 3785 6422 50  0001 C CNN
-F 3 "" H 3785 6422 50  0001 C CNN
-	1    3785 6422
+P 4223 6465
+F 0 "#PWR0102" H 4223 6315 50  0001 C CNN
+F 1 "+5V" H 4238 6638 50  0000 C CNN
+F 2 "" H 4223 6465 50  0001 C CNN
+F 3 "" H 4223 6465 50  0001 C CNN
+	1    4223 6465
 	0    -1   -1   0   
 $EndComp
 Text Label 8531 3740 2    60   ~ 0
@@ -617,49 +612,39 @@ Wire Wire Line
 Wire Wire Line
 	1924 5819 1925 5819
 Wire Wire Line
-	1925 5819 1925 5624
-Wire Wire Line
 	1925 5624 1328 5624
 Wire Wire Line
 	1328 5624 1328 5473
 Wire Wire Line
 	1327 6162 2083 6162
-Wire Wire Line
-	2083 6162 2083 5753
 Connection ~ 2083 5753
 Wire Wire Line
 	2083 5753 2083 5373
 Wire Wire Line
-	4008 6053 4008 5740
-Wire Wire Line
-	4008 5740 8381 5740
-Wire Wire Line
 	1928 5373 2083 5373
 Connection ~ 2083 5373
-Wire Wire Line
-	3050 6869 2255 6869
 Wire Wire Line
 	1929 6351 1928 6351
 $Comp
 L power:GND #PWR0107
 U 1 1 61C27FBE
-P 4819 6953
-F 0 "#PWR0107" H 4819 6703 50  0001 C CNN
-F 1 "GND" H 4824 6780 50  0000 C CNN
-F 2 "" H 4819 6953 50  0001 C CNN
-F 3 "" H 4819 6953 50  0001 C CNN
-	1    4819 6953
+P 5257 6996
+F 0 "#PWR0107" H 5257 6746 50  0001 C CNN
+F 1 "GND" H 5262 6823 50  0000 C CNN
+F 2 "" H 5257 6996 50  0001 C CNN
+F 3 "" H 5257 6996 50  0001 C CNN
+	1    5257 6996
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR0108
 U 1 1 61C32C24
-P 3819 6953
-F 0 "#PWR0108" H 3819 6803 50  0001 C CNN
-F 1 "+5V" H 3834 7126 50  0000 C CNN
-F 2 "" H 3819 6953 50  0001 C CNN
-F 3 "" H 3819 6953 50  0001 C CNN
-	1    3819 6953
+P 4257 6996
+F 0 "#PWR0108" H 4257 6846 50  0001 C CNN
+F 1 "+5V" H 4272 7169 50  0000 C CNN
+F 2 "" H 4257 6996 50  0001 C CNN
+F 3 "" H 4257 6996 50  0001 C CNN
+	1    4257 6996
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 10533 6045
@@ -700,7 +685,7 @@ L Device:R R3
 U 1 1 619A84A5
 P 1559 2586
 F 0 "R3" V 1477 2589 50  0000 C CNN
-F 1 "200" V 1560 2588 50  0000 C CNN
+F 1 "510 B" V 1560 2588 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1489 2586 50  0001 C CNN
 F 3 "~" H 1559 2586 50  0001 C CNN
 	1    1559 2586
@@ -711,7 +696,7 @@ L Device:R R1
 U 1 1 619AAF13
 P 1559 2186
 F 0 "R1" V 1481 2191 50  0000 C CNN
-F 1 "150" V 1559 2187 50  0000 C CNN
+F 1 "150 R" V 1559 2187 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1489 2186 50  0001 C CNN
 F 3 "~" H 1559 2186 50  0001 C CNN
 	1    1559 2186
@@ -722,7 +707,7 @@ L Device:R R2
 U 1 1 619B7184
 P 1559 2386
 F 0 "R2" V 1477 2389 50  0000 C CNN
-F 1 "150" V 1560 2384 50  0000 C CNN
+F 1 "360 G" V 1560 2384 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 1489 2386 50  0001 C CNN
 F 3 "~" H 1559 2386 50  0001 C CNN
 	1    1559 2386
@@ -763,17 +748,6 @@ F 3 "" H 6367 6331 50  0001 C CNN
 $EndComp
 $Comp
 L 4xxx:4066 U102
-U 3 1 61AF60DC
-P 2555 7209
-F 0 "U102" V 2601 7081 50  0000 R CNN
-F 1 "4066" V 2510 7081 50  0000 R CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2555 7209 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 2555 7209 50  0001 C CNN
-	3    2555 7209
-	0    -1   -1   0   
-$EndComp
-$Comp
-L 4xxx:4066 U102
 U 4 1 61AF796C
 P 2553 4915
 F 0 "U102" V 2507 4787 50  0000 R CNN
@@ -783,11 +757,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 2553 4915 50  0001 C CNN
 	4    2553 4915
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2255 7209 2255 6869
-Connection ~ 2255 6869
-Wire Wire Line
-	2255 6869 1929 6869
 Wire Wire Line
 	2253 4915 2253 5373
 $Comp
@@ -895,22 +864,19 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 2554 5753 50  0001 C CNN
 	1    2554 5753
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	2554 6053 4008 6053
 $Comp
 L 4xxx:4066 U102
 U 5 1 61C253FE
-P 4319 6953
-F 0 "U102" V 3952 6953 50  0000 C CNN
-F 1 "4066" V 4043 6953 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4319 6953 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4319 6953 50  0001 C CNN
-	5    4319 6953
+P 4757 6996
+F 0 "U102" V 4390 6996 50  0000 C CNN
+F 1 "4066" V 4481 6996 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4757 6996 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 4757 6996 50  0001 C CNN
+	5    4757 6996
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2554 6072 2554 6053
-Connection ~ 2554 6053
+	2554 6072 2554 6065
 $Comp
 L 4xxx:4066 U102
 U 2 1 6195CC77
@@ -943,27 +909,130 @@ Text Label 5131 3690 0    60   ~ 0
 GAME
 Wire Wire Line
 	2083 5373 2253 5373
-Connection ~ 2253 5373
-Wire Wire Line
-	2253 5373 3058 5373
 Wire Wire Line
 	1929 4837 1936 4837
 Connection ~ 1936 4837
 Wire Wire Line
 	1936 4837 2149 4837
-Text Label 2554 6672 0    60   ~ 0
-ROML
-Text Label 2554 5453 0    60   ~ 0
-ROMH
-Text Label 3050 6869 0    60   ~ 0
-GAME
-Text Label 3058 5373 0    60   ~ 0
+Text Label 1729 7018 2    60   ~ 0
 EXROM
-Wire Wire Line
-	1929 6351 1929 6869
+Text Label 2301 7427 2    60   ~ 0
+EXROM
 Wire Wire Line
 	1928 6372 1928 6351
 Wire Wire Line
 	1928 6372 2254 6372
 Connection ~ 1928 6351
+Wire Wire Line
+	2554 6065 2605 6065
+Connection ~ 2554 6065
+Wire Wire Line
+	2554 6065 2554 6053
+Text Label 2605 6065 0    60   ~ 0
+CE
+Text Label 8297 4140 2    60   ~ 0
+CE
+Wire Wire Line
+	8297 4140 8381 4140
+Connection ~ 8381 4140
+Wire Wire Line
+	8381 4140 8531 4140
+Wire Wire Line
+	1925 5624 1925 5819
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP2
+U 1 1 61BB626C
+P 2501 7427
+F 0 "JP2" H 2501 7540 50  0000 C CNN
+F 1 "EXROM" H 2501 7631 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 2501 7427 50  0001 C CNN
+F 3 "~" H 2501 7427 50  0001 C CNN
+	1    2501 7427
+	1    0    0    1   
+$EndComp
+Text Label 2701 7427 0    60   ~ 0
+GAME
+$Comp
+L 4xxx:4066 U102
+U 3 1 61AF60DC
+P 1178 7425
+F 0 "U102" V 1224 7297 50  0000 R CNN
+F 1 "4066" V 1133 7297 50  0000 R CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1178 7425 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/cd4066b.pdf" H 1178 7425 50  0001 C CNN
+	3    1178 7425
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1929 6351 1929 6868
+Connection ~ 1929 6868
+Wire Wire Line
+	1929 6868 1929 6869
+Wire Wire Line
+	2083 6797 2501 6797
+Wire Wire Line
+	2501 6797 2501 7277
+Wire Wire Line
+	2083 5753 2083 6162
+Connection ~ 2083 6162
+Wire Wire Line
+	2083 6162 2083 6797
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP4
+U 1 1 61BDC9B0
+P 3149 5453
+F 0 "JP4" V 3103 5521 50  0000 L CNN
+F 1 "ROMH" V 3194 5521 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 3149 5453 50  0001 C CNN
+F 3 "~" H 3149 5453 50  0001 C CNN
+	1    3149 5453
+	0    1    1    0   
+$EndComp
+Text Label 3504 5653 0    60   ~ 0
+ROML
+Wire Wire Line
+	2554 5453 2999 5453
+Wire Wire Line
+	3149 5653 3504 5653
+Text Label 3504 5253 0    60   ~ 0
+ROMH
+Wire Wire Line
+	3149 5253 3504 5253
+Wire Wire Line
+	2956 6872 3311 6872
+Wire Wire Line
+	2956 6472 3311 6472
+NoConn ~ 1178 7725
+NoConn ~ 878  7425
+NoConn ~ 1178 7125
+Text Label 2129 7018 0    60   ~ 0
+GAME
+Text Label 3311 6872 0    60   ~ 0
+ROML
+Text Label 3311 6472 0    60   ~ 0
+ROMH
+Wire Wire Line
+	2554 6672 2806 6672
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP3
+U 1 1 61D6897E
+P 2956 6672
+F 0 "JP3" V 3002 6740 50  0000 L CNN
+F 1 "ROML" V 2911 6740 50  0000 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 2956 6672 50  0001 C CNN
+F 3 "~" H 2956 6672 50  0001 C CNN
+	1    2956 6672
+	0    1    -1   0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 61BB6F84
+P 1929 7018
+F 0 "JP1" H 1929 7131 50  0000 C CNN
+F 1 "GAME" H 1929 7222 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels" H 1929 7018 50  0001 C CNN
+F 3 "~" H 1929 7018 50  0001 C CNN
+	1    1929 7018
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
